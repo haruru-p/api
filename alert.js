@@ -1,8 +1,5 @@
 (function(Scratch) {
   'use strict';
-  if (!Scratch.extensions.unsandboxed) {
-    throw new Error('Sandbox Error - サンドボックスなしで実行してください');
-  }
   let TextAnswer = '';
   let YesNoAns = false;
   class AlertExtension {
